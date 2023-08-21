@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo | App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h4>my todo's</h4>
+        <form class="form" id="task-form">
+            <input type="text" name="taskname" id="input-item" placeholder="Task Name">
+            <input type="number" name="hours" id="input-hours" min="0" max="23" placeholder="Hours">
+            <input type="number" name="minutes" id="input-minutes" min="0" max="59" placeholder="Minutes">
+            <button>add task</button>
+        </form>
+
+        <div class="my-task">
+            <ul class="task-list" id="task-list">
+               
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
